@@ -288,7 +288,7 @@ background-color: #fff;
 background-color: #fff;
 }
 .slicknav_nav a{
-padding:5px 10px;
+/* padding:5px 10px; */
 margin:2px 5px;
 text-decoration:none;
 color:#fff;
@@ -297,6 +297,7 @@ font-weight:400;
 letter-spacing:2px;
 text-transform:uppercase;
 font-family: Comfortaa;
+    background-color: #fff;
 }
 /*
     Mobile Menu Core Style
@@ -334,7 +335,7 @@ font-family: Comfortaa;
 
 .slicknav_menu {
     font-size:16px;
-	background: #A08668;
+	background: #fff;
     padding-bottom: 22px;
 }
 /* Button */
@@ -3473,7 +3474,7 @@ padding: 10px 5px;
   text-align: center;
 }
 .btn-hovermenu {
-  color: #A48968;
+  color: #fff;
   cursor: pointer;
   font-size: 16px;
   font-weight: 400;
@@ -3508,6 +3509,7 @@ padding: 10px 5px;
 .btn-4-hovermenu span {
   z-index: 20;
   padding: 20px;
+  color: #A48968;
 }
 .btn-4-hovermenu:after {
   background: #fff;
