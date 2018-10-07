@@ -2918,7 +2918,7 @@ input#datepickerIn, input#datepickerOut{
     font-size: 36px;
     letter-spacing: -1px;
     outline: 0;
-    padding: 5px 20px;
+    padding: 0px 20px;
     text-align: center;
     transition: all 0.3s;
     width: 200px;
@@ -2937,7 +2937,7 @@ top:2px;
   width: 260px;
   display: block;
   letter-spacing: 8px;
-  padding-top: 30px;
+  padding-top: 5px;
   text-align: center;
   margin: auto;
 }
@@ -3002,7 +3002,7 @@ background-color:rgba(255,255,245,0.1);
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
     box-shadow: 0 1px 6px rgba(0,0,0,.06), 0 2px 32px rgba(0,0,0,.16);
-	z-index: 5;
+	z-index: 12;
   }
   .cc-selector input{
     margin:0;padding:0;
@@ -3080,10 +3080,11 @@ background-color:rgba(255,255,245,0.1);
   justify-content: center;
   position: relative;
   cursor: pointer;
+  margin-top: 15px;
 }
 .body-book-but #wrapper-book-but {
   display: inline-block;
-  padding: 20px 20px;
+  padding: 5px 20px;
   overflow: hidden;
   background: #A48968;
   box-shadow: 0px 0px 0px 5px #fff, 0px 0px 0px 10px #A48968;
