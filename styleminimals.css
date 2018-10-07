@@ -323,7 +323,7 @@ font-family: Comfortaa;
 .slicknav_menu:after { clear: both }
 .scroll-header.scrolled-header .slicknav_btn {color:#fff;}
 .scroll-header.scrolled-header .slicknav_menu .slicknav_icon-bar {
-    background-color: #fff;
+    background-color: #A48968;
 }
 /* IE6/7 support */
 .slicknav_menu { *zoom: 1 }
