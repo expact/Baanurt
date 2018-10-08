@@ -126,7 +126,7 @@
 /* notify */
 .notifications {
   position: fixed;
-  right: -400px;
+  right: -350px;
   top: 80%;
   z-index: 99;
 }
