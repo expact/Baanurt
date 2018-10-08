@@ -1,3 +1,4 @@
+/* roomtype */
 .q-container{width:100%;max-width:1280px;padding:0 5rem;margin:0 auto;}
 .column{display:block;flex-basis:0;flex-grow:1;flex-shrink:1;}
 @media screen and (min-width: 769px){
@@ -120,3 +121,70 @@
 @media screen and (max-width: 1024px){
 .accommodations:hover .accommodation-type a:hover h4.accommodation-name:before{width:100px;}
 }
+/* end roomtype */
+
+/* notify */
+.notifications {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.notify {
+  width: 300px;
+  height: 70px;
+  background-color: whitesmoke;
+  border-radius: 7px;
+  box-shadow: 0 1px 4px #674918;
+  overflow: hidden;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.notify:first-child {
+  margin: 0 0 10px 0;
+}
+
+.circle {
+  width: 28px;
+  height: 20px;
+  display: block;
+  border-radius: 100%;
+  transform: translate(17px, 17px);
+  color: whitesmoke;
+  padding: 10px 0 10px 13px;
+}
+
+.rd > .circle {
+  background-color: #de3b12;
+}
+
+.rd > .info span:first-child {
+  color: #de3b12;
+}
+
+.info {
+  width: 230px;
+  height: 70px;
+  transform: translate(70px, -35px);
+  padding: 10px;
+}
+
+.info span:first-child {
+  display: block;
+  color: #38ad65;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.info span:last-child {
+  color: #919191;
+  font-size: 13px;
+}
+
+.info span a {
+  color: #545454;
+  text-decoration: none;
+  font-weight: 600;
+}
+/* end notify */
