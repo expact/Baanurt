@@ -1,0 +1,122 @@
+.q-container{width:100%;max-width:1280px;padding:0 5rem;margin:0 auto;}
+.column{display:block;flex-basis:0;flex-grow:1;flex-shrink:1;}
+@media screen and (min-width: 769px){
+.columns:not(.q-desktop){display:flex;}
+}
+.section-headline{font:400 35px/1.3 &quot;Playfair Display&quot;, serif;text-transform:uppercase;letter-spacing:5px;color:#5f5c68;position:relative;margin-top:0;display:block;margin-bottom:50px;}
+@media screen and (max-width: 540px){
+.section-headline{font-size:24px;line-height:28px;margin-bottom:25px;}
+}
+@media screen and (max-width: 320px){
+.section-headline{font-size:20px;line-height:30px;margin-bottom:25px;}
+}
+.bg-blue-dark{background-color:#A38868}
+.bg-blue-dark p{color:#DCD6C4;}
+.bg-blue-dark .section-headline{color:#f0f0f5;}
+.sectionacco{padding:150px 0px 100px;}
+@media screen and (max-width: 1024px){
+.sectionacco{padding:75px 0;}
+}
+@media screen and (max-width: 540px){
+.sectionacco{padding:50px 0;}
+}
+.bg-image-section-two{position:relative;overflow:hidden;}
+.bg-image-section-two:before,.bg-image-section-two:after{content:&#39;&#39;;display:inline-block;position:absolute;background-size:contain;background-repeat:no-repeat;opacity:.4;}
+.bg-image-section-two:before{background-image:url(&quot;https://1.bp.blogspot.com/-7_RPKB3lU-k/W7rloj2F8II/AAAAAAAAFRY/Zzrj1Cmpf7A8ZASN1Xec1Nz_x8Zp42jzgCLcBGAs/s1600/bg-leaf-2.png&quot;);top:-1%;left:20%;height:100%;width:300px;}
+@media screen and (max-width: 540px){
+.bg-image-section-two:before{height:200px;width:200px;top:10vh;}
+}
+.bg-image-section-two:after{background-image:url(&quot;https://1.bp.blogspot.com/-bwlgGjuqAcg/W7rloWn3U3I/AAAAAAAAFRU/J3uxcyDtiCI_tOqys7gSEm9IFeKYbFVFACLcBGAs/s1600/bg-palm-2.png&quot;);bottom:-20%;right:25%;height:500px;width:300px;}
+@media screen and (max-width: 540px){
+.bg-image-section-two:after{height:300px;width:180px;bottom:-10vh;}
+}
+.q_split{display:block;overflow:hidden;}
+.q_split_wrap{display:block;}
+.q-container{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+@media screen and (max-width: 768px){
+.q-container{padding:0 35px;}
+}
+@media screen and (max-width: 540px){
+.q-container{padding:0 20px;}
+}
+@media screen and (max-width: 320px){
+.q-container{padding:0 15px;}
+}
+.container-inner{padding-left:12rem;padding-right:12rem;}
+@media screen and (max-width: 1024px){
+.container-inner{padding-left:8rem;padding-right:8rem;}
+}
+@media screen and (max-width: 768px){
+.container-inner{padding-left:50px;padding-right:50px;}
+}
+@media screen and (max-width: 540px){
+.container-inner{padding-left:20px;padding-right:20px;}
+}
+@media screen and (max-width: 320px){
+.container-inner{padding-left:15px;padding-right:15px;}
+}
+#home_accommodation{padding:150px 0px 150px;}
+@media screen and (max-width: 540px){
+#home_accommodation{padding:50px 0px 50px;}
+}
+@media screen and (max-width: 540px){
+#home_accommodation .section-headline{margin-bottom:40px;}
+}
+#home_accommodation p{margin:0 0 80px 50px;max-width:300px;letter-spacing: 1px;}
+.accommodations::after{clear:both;content:&quot;&quot;;display:block;}
+.accommodations .accommodation-type{width:calc(100% / 3);float:left;height:450px;position:relative;}
+@media screen and (max-width: 1024px){
+.accommodations .accommodation-type{height:360px;}
+}
+@media screen and (max-width: 768px){
+.accommodations .accommodation-type{margin:0 auto 50px;height:185px;width:calc(100% - 40px);float:none;}
+.accommodations .accommodation-type:last-child{margin-bottom:15px;}
+}
+@media screen and (max-width: 540px){
+.accommodations .accommodation-type{padding:0;height:150px;margin-bottom:40px;width:100%;}
+}
+@media screen and (max-width: 375px){
+.accommodations .accommodation-type{height:140px;margin-bottom:30px;}
+}
+@media screen and (max-width: 320px){
+.accommodations .accommodation-type{height:120px;margin-bottom:20px;}
+}
+.accommodations .accommodation-type a{display:block;position:absolute;width:100%;height:100%;top:0;left:0;}
+.accommodations .accommodation-type a h4.accommodation-name,.accommodations .accommodation-type a h4.accommodation-name:before,.accommodations .accommodation-type a .accommodation-bg{-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;-o-transition:all 0.3s ease;-ms-transition:all 0.3s ease;transition:all 0.3s ease;}
+.accommodations .accommodation-type a .accommodation-bg-change{-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;-o-transition:all 0.3s ease;-ms-transition:all 0.3s ease;transition:all 0.3s ease;}
+.accommodations .accommodation-type a h4.accommodation-name{color:#fff;position:absolute;left:20%;right:20%;z-index:2;bottom:5%;font-size:11px;line-height:30px;text-align:left;text-transform:uppercase;font-weight:400;margin:0 0 35px;letter-spacing:2px;}
+@media screen and (max-width: 768px){
+.accommodations .accommodation-type a h4.accommodation-name{left:10%;}
+}
+.accommodations .accommodation-type a h4.accommodation-name:before{content:&#39;&#39;;display:block;height:1px;width:100px;background-color:rgba(255, 255, 255, 0.8);margin:10px 0 0;position:relative;left:0;}
+@media screen and (max-width: 540px){
+.accommodations .accommodation-type a h4.accommodation-name:before{margin-top:10px;}
+}
+.accommodations .accommodation-type a .accommodation-bg{width:100%;position:absolute;right:0;height:100%;z-index:1;background-color:transparent;overflow:hidden;background-size:95%;background-position:center;background-repeat:no-repeat;margin:auto;-webkit-transition:all 0.4s ease;-moz-transition:all 0.4s ease;-o-transition:all 0.4s ease;-ms-transition:all 0.4s ease;transition:all 0.4s ease;}
+@media screen and (max-width: 768px){
+.accommodations .accommodation-type a .accommodation-bg{background-size:100%;}
+}
+.accommodations .accommodation-type a .accommodation-bg-change{content:&quot;&quot;;width:98%;position:absolute;height:100%;-webkit-transform:translateX(-105%);-moz-transform:translateX(-105%);-ms-transform:translateX(-105%);-o-transform:translateX(-105%);transform:translateX(-105%);background-color:#333107;background-size:cover;}
+.accommodations .accommodation-type:nth-child(1) a .accommodation-bg-change{background-position:left center;}
+.accommodations .accommodation-type:nth-child(2) a .accommodation-bg-change{background-position:50% center;}
+.accommodations .accommodation-type:nth-child(3) a .accommodation-bg-change{background-position:right center;}
+.accommodations:hover .accommodation-type a .accommodation-bg{width:100%;background-size:80%;}
+@media screen and (max-width: 1024px){
+.accommodations:hover .accommodation-type a .accommodation-bg{background-size:80%;}
+}
+@media screen and (max-width: 768px){
+.accommodations:hover .accommodation-type a .accommodation-bg{background-size:80%;}
+}
+.accommodations:hover .accommodation-type a .accommodation-bg-change{-webkit-transform:translateX(0);-moz-transform:translateX(0);-ms-transform:translateX(0);-o-transform:translateX(0);transform:translateX(0);}
+@media screen and (max-width: 1024px){
+.accommodations:hover .accommodation-type a .accommodation-bg-change{-webkit-transform:translateX(-105%);-moz-transform:translateX(-105%);-ms-transform:translateX(-105%);-o-transform:translateX(-105%);transform:translateX(-105%);}
+}
+.accommodations:hover .accommodation-type a h4.accommodation-name{-webkit-transform:translateX(10px);-moz-transform:translateX(10px);-ms-transform:translateX(10px);-o-transform:translateX(10px);transform:translateX(10px);opacity:.3;}
+@media screen and (max-width: 1024px){
+.accommodations:hover .accommodation-type a h4.accommodation-name{opacity:1;-webkit-transform:translateX(0px);-moz-transform:translateX(0px);-ms-transform:translateX(0px);-o-transform:translateX(0px);transform:translateX(0px);}
+}
+.accommodations:hover .accommodation-type a:hover h4.accommodation-name{opacity:1;-webkit-transform:translateX(0px);-moz-transform:translateX(0px);-ms-transform:translateX(0px);-o-transform:translateX(0px);transform:translateX(0px);}
+.accommodations:hover .accommodation-type a:hover h4.accommodation-name:before{width:100%;}
+@media screen and (max-width: 1024px){
+.accommodations:hover .accommodation-type a:hover h4.accommodation-name:before{width:100px;}
+}
