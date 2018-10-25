@@ -2862,8 +2862,8 @@ section{display:block}.clearfix{*zoom:1}.clearfix:before,.clearfix:after{display
   }
   .thehotel-th {
 	  line-height: 1.9em;
-      font-size: 1.3em;
-	  letter-spacing: 1.5px;
+      	  font-size: 1.3em;
+	  letter-spacing: 2px;
   }
     .thehotel-en {
 font-size: 1.3em;
@@ -2892,6 +2892,7 @@ color:#fff;margin:0;font-size:3.2vw;line-height:1.0em;text-transform:Uppercase;l
  .hotelcontent-div p {
 	 color: #9B8C6E;
 	 text-align: justify;
+	 font-family: Athiti;
  }
   .goodtoknow-p-link {margin-bottom:10px;}
   #book-now{background-color: #EFEFE9;padding: 0px 0px 60px 0px;border-top: 18px solid #A38868;margin-top: 50px;}
