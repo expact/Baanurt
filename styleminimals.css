@@ -2369,8 +2369,8 @@ right: 0
 }
 .PopularPosts .item-thumbnail {
 margin: 0 15px 0 0 !important;
-width: 90px;
-height: 65px;
+width: 400px;
+height: 400px;
 float: left;
 overflow: hidden;
 position: relative
@@ -2382,8 +2382,8 @@ overflow: hidden;
 line-height: 0
 }
 .PopularPosts ul li img {
-width: 90px;
-height: 65px;
+width: 400px;
+height: 400px;
 object-fit: cover;
 padding: 0;
 transition: all .3s ease
