@@ -2372,8 +2372,9 @@ right: 0
 }
 .PopularPosts .item-thumbnail {
 margin: 0 15px 0 0 !important;
-width: 400px;
-height: 400px;
+width: 100%;
+max-width: 400px;
+height: 100%;
 float: left;
 overflow: hidden;
 position: relative
