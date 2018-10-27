@@ -2385,8 +2385,8 @@ overflow: hidden;
 line-height: 0
 }
 .PopularPosts ul li img {
-width: 400px;
-height: 400px;
+/* width: 400px;
+height: 400px; */
 object-fit: cover;
 padding: 0;
 transition: all .3s ease
