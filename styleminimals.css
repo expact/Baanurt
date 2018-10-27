@@ -2367,6 +2367,9 @@ position: absolute;
 top: 9px;
 right: 0
 }
+.item-content {
+    padding-top: 30px;
+}
 .PopularPosts .item-thumbnail {
 margin: 0 15px 0 0 !important;
 width: 400px;
