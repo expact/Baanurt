@@ -2431,7 +2431,7 @@ counter-reset: popularcount;
 margin: 0;
 padding: 0;
 }
-.PopularPosts .item-thumbnail::before {
+/*.PopularPosts .item-thumbnail::before {
 background: rgba(0, 0, 0, 0.3);
 bottom: 0px;
 content: "";
@@ -2442,7 +2442,7 @@ right: 0px;
 margin: 0px auto;
 position: absolute;
 z-index: 3;
-}
+}*/
 .BlogArchive ul li {
 margin-bottom: 7px !important;
 padding-bottom: 7px;
