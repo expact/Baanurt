@@ -3652,3 +3652,8 @@ padding: 10px 5px;
 #BlogArchive1 {
     float: left;	
 }
+#FollowByEmail1 {
+	margin: auto;
+	max-width: 300px;
+	display: inline-block;
+}
