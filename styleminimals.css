@@ -1497,8 +1497,8 @@ letter-spacing: 1.5px;
 text-transform: uppercase;
 position: relative;
 text-align: center;
-background: #EFEFE9;
-    border: 1px solid #f0f0f0;
+/* background: #EFEFE9;
+    border: 1px solid #f0f0f0; */
 }
 .sidebar .widget-content {
     padding: 10px;
