@@ -148,9 +148,9 @@ width:100%;
 max-width:100%
 }
 .item #sidebar-wrapper, .statc_page #sidebar-wrapper {
-float: right;
+/* float: right;
 width: 30%;
-max-width: 330px;
+max-width: 330px; */
 }
 .index #sidebar-wrapper, .archive #sidebar-wrapper {
 display:none;
