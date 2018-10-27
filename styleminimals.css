@@ -138,9 +138,10 @@ overflow: hidden;
 }
 
 .item #main-wrapper, .statc_page #main-wrapper {
-float: left;
-width: 68%;
+/* float: left; */
+width: 100%;
 max-width: 800px;
+margin: auto;
 }
 .index #main-wrapper, .archive #main-wrapper {
 float:none;
