@@ -3645,3 +3645,10 @@ padding: 10px 5px;
   }
 }
 /* END head text effect */
+
+#Label1{
+    float: left;
+}
+#BlogArchive1 {
+    float: left;	
+}
