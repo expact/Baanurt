@@ -1475,11 +1475,23 @@ font-weight:normal;
     color: #000;
 }
 .map-me .con-list li a, .email {
-color:#FFFFEF;
-text-decoration: underline;
+    color:#FFFFEF;
+    text-decoration: underline;
 }
 .map-me .con-list li a:hover, .email:hover {
 color:#DCD1C2;
+}
+a.email {
+    color:#A18768;
+    text-decoration: none;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #fff;
+    padding: 5px;
+}
+a.email:hover {
+    background-color: #A18768;
+    color: #fff;
 }
 /* ######## Sidebar Css ######################### */
 .sidebar .widget {
