@@ -2944,8 +2944,8 @@ input#datepickerIn, input#datepickerOut{
     width: 200px;
 }
 input#datepickerIn:focus, input#datepickerOut:focus{
-      max-width: 100%;
-      width: 280px;
+      max-width: 85%;
+      width: 222px;
       }
 #labelIn:after, #labelOut:after {
 content:url("https://2.bp.blogspot.com/-i_o4mnT_T9U/WpYWDI11k9I/AAAAAAAAEUc/_Kex63WnjvUkIWQY_hS-GODscXyeTKjigCLcBGAs/s1600/002-time.png");
