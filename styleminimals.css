@@ -187,7 +187,7 @@ display:block;
 transition: all .5s;
 }
 .scroll-head-wrap {
-	width: 30%;
+	/*width: 30%;*/
 margin:0 auto;
 }
 .item .scroll-header h1, .static_page .scroll-header h1, .error_page .scroll-header h1 {
