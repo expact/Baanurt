@@ -140,7 +140,7 @@ overflow: hidden;
 .item #main-wrapper, .statc_page #main-wrapper {
 /* float: left; */
 width: 100%;
-max-width: 800px;
+/* max-width: 800px; */
 margin: auto;
 }
 .index #main-wrapper, .archive #main-wrapper {
@@ -174,7 +174,7 @@ transition: all .5s;
     display: flex;
     background: #3C2D1E none repeat scroll top left;
     box-shadow: 0 0 6px 1px rgba(0,0,0,0.1);
-    padding: 20px 0;
+    padding: 0;
 }
 .scroll-header.scrolled-header {
  background-color: rgba(254, 254, 246, 0.8);
@@ -187,6 +187,7 @@ display:block;
 transition: all .5s;
 }
 .scroll-head-wrap {
+	width: 30%;
 margin:0 auto;
 }
 .item .scroll-header h1, .static_page .scroll-header h1, .error_page .scroll-header h1 {
@@ -1558,6 +1559,8 @@ text-transform:capitalize;
     color: #606060;
 }
 article {
+	max-width: 800px;
+	margin: auto;
     padding: 0;
 overflow:hidden;
 }
@@ -3073,8 +3076,9 @@ background-color:rgba(255,255,245,0.1);
             filter: brightness(1.2) grayscale(.5) opacity(.9);
 }
 .body-book-but-content {
-    height: 150px;
-    margin-right: 10px;
+    width: 70%;
+    height: 100vh;
+   /* margin-right: 10px; */
 }
 #wrapper-book-but-content {
     display: inline-block;
