@@ -3089,7 +3089,7 @@ background-color:rgba(255,255,245,0.1);
     background: #A48968;
     width: max-content;
 }
-@media (min-width: 900px) {
+/*@media (min-width: 900px) {
 	.logolefttobot {
 	display:block;
 	}
@@ -3104,7 +3104,7 @@ background-color:rgba(255,255,245,0.1);
 	.logotobot {
 	display:block
 	}
-}
+}*/
 .body-book-but-content #wrapper-book-but-content .button-now-content {
     font-size: 20px;
     color: #fff;
