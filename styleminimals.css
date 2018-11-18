@@ -3590,6 +3590,8 @@ padding: 10px 5px;
 }
 
 .animate-third {
+	position: absolute;
+	    top: 50%;
   -webkit-animation-delay: 1.3s;
      -moz-animation-delay: 1.3s;
        -o-animation-delay: 1.3s;
