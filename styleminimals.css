@@ -172,7 +172,7 @@ transition: all .5s;
 .item .scroll-header, .static_page .scroll-header, .error_page .scroll-header {
     position: static;
     display: flex;
-    background: #3C2D1E none repeat scroll top left;
+    background: #fff none repeat scroll top left;
     box-shadow: 0 0 6px 1px rgba(0,0,0,0.1);
     padding: 0;
 }
