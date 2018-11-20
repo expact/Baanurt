@@ -186,6 +186,11 @@ visibility:visible;
 display:block;
 transition: all .5s;
 }
+@media only screen and (min-width: 980px)
+	.scroll-header.scrolled-header {
+		background-color: unset;
+	}	
+}
 .scroll-head-wrap {
 	/*width: 30%;*/
 margin:0 auto;
