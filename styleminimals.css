@@ -617,7 +617,7 @@ margin-bottom:0;
    color:#303030;
 }
 .item #header-wrapper, .static_page #header-wrapper, .error_page #header-wrapper {
-    background: #fff;
+  /*  background: #fff; */
     height: auto;
 border-bottom: 1px solid #eee;
     box-shadow: 0 -2px 19px rgba(0,0,0,.1);
