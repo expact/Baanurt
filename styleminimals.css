@@ -211,11 +211,11 @@ color:#000!important;
     margin: 0;
     padding: 80px 0 0;
     display: inline-block;
-	/* center */
+	/* center 
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
 }
 .scrollin-logo .logo-title {
     font-size: 40px;
