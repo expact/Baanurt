@@ -1,0 +1,1 @@
+var url=document.referrer,parser=document.createElement("a");parser.href=url;var pathname=parser.pathname,appId=pathname.split("/")[2],ret=appId.replaceAll("-"," ");function titleCase(e){for(var r=e.toLowerCase().split(" "),t=0;t<r.length;t++)r[t]=r[t].charAt(0).toUpperCase()+r[t].substring(1);return r.join(" ")}document.getElementById("loga1").innerHTML+=titleCase(ret);
