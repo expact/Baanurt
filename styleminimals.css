@@ -581,14 +581,14 @@ color:#000;
 text-align: center;
 padding:0;
 background-image: url("https://1.bp.blogspot.com/-rP8Qy4KpzoU/W9PKmds8RoI/AAAAAAAAFc0/twR_xtwqDZ0iuFDQEcFSyr4dJTd_Xy5dwCLcBGAs/s1600/20181021152453_IMG_6272.jpg");
-background-repeat: no-repeat;
+background-repeat: repeat;
 background-position: center top;
     background-attachment: fixed;
     margin-bottom: 10px;
 height:120vh;
 box-sizing:border-box;
 position:relative;
-background-size: 2100px;
+background-size: 2300px;
     width: 100%;
 }
 .header-wrapper-anime {
